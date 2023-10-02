@@ -1,0 +1,165 @@
+﻿@model Project_Yogita_Gurav.Models.Customer
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h4>Customer Details</h4>
+
+<div class="container">
+       <div class = "col-sm-5">
+            @Html.ActionLink("Edit", "Edit", new {  id = Model.Id }) |
+              @Html.ActionLink("Back to List", "Index", "") 
+          </div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.salutation)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.salutation)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.initials)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.initials)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.firstname)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.firstname)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.firstname_ascii)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.firstname_ascii)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.gender)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.gender)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.firstname_country_rank)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.firstname_country_rank)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.firstname_country_frequency)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.firstname_country_frequency)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.lastname)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.lastname)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.lastname_ascii)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.lastname_ascii)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.lastname_country_rank)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.lastname_country_rank)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.lastname_country_frequency)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.lastname_country_frequency)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.email)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.password)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.password)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.country_code)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.country_code)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.country_code_alpha)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.country_code_alpha)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.country_name)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.country_name)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.primary_language_code)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.primary_language_code)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.primary_language)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.primary_language)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.balance)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.balance)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.phone_Number)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.phone_Number)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.partitionKey)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.partitionKey)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.rowKey)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.rowKey)
+        </dd>
+        <dt class = "col-sm-5">
+            @Html.DisplayNameFor(model => model.timestamp)
+        </dt>
+        <dd class = "col-lg-4">
+            @Html.DisplayFor(model => model.timestamp)
+        </dd>
+        
+    </dl>
+
+ 
+   </div>
